@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
+
+//RiRadioButtonLine
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div className="contact">
       <div>
         <h1>By phone</h1>
-        <p>+966553443668</p> 
+        <p>+966553443668</p>
       </div>
       <div>
         <h1>By Email</h1>
@@ -13,9 +15,8 @@ const Contact = () => {
       </div>
       <div>
         <h1>By Live Chat</h1>
-        <button>Live Chat!</button>     
-         </div>
-
+        <button className="buttons1">Live Chat!</button>
+      </div>
     </div>
   );
 };
