@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import { Route, Switch } from "react-router";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
@@ -10,7 +10,7 @@ import Error404 from "./components/Error404";
 // import Footer from "./components/Footer";
 // import Fav from "./components/fav";
 const App = () => {
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [searchTerm, setSearchTerm] = useState("");
 
   return (
     <div>
