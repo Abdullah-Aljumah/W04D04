@@ -10,6 +10,13 @@
   width: 30%;
   border: 1px solid black;
   background-color: rgba(0, 0, 0, 0.082);
+  margin-bottom: 50px;
+
+
+}
+.cards:hover {
+  background-color: rgba(0, 0, 0, 0.151);
+
 }
 
 .card img {

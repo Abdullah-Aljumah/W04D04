@@ -17,7 +17,7 @@ import { useHistory } from 'react-router';
             {/* <Link to='/'  className='links'>Home</Link> */}
             {/* <Link to='/Fav'  className='links'>Favorite</Link> */}
             <Link to='/Contact' className='links' >Contact</Link>
-            <Link to='/Cards'className='links'  >Cards</Link>
+            <Link to='/'className='links'  >Cards</Link>
 
         </div>
     )

@@ -24,8 +24,10 @@ const Card = () => {
   // ******************************************
   return card.length ? (
     <div className="items">
-      <h1> {cards.name} </h1>
+      <h1> Card Name: {cards.name} </h1>
       <img src={cards.images.large} alt="logo" style={{ width: "300px" }} />
+   
+      <h1 style={{ fontSize: "30px", color: 'black'}}>Hp : {cards.hp}</h1>
     </div>
   ) : (
     <h1 className='loading'> Loading ... </h1>

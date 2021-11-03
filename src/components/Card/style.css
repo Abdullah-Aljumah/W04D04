@@ -5,6 +5,8 @@
 
 .items h1 {
     text-align: center;
+    border:1px solid black;
+    background-color: rgba(97, 96, 96, 0.267);
 }
 
 .items img {
